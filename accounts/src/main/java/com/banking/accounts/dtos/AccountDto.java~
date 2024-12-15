@@ -1,0 +1,4 @@
+package com.banking.accounts.dtos;
+
+public class AccountDto {
+}
