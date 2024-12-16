@@ -2,10 +2,14 @@ package com.banking.accounts.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import org.springframework.http.HttpStatus;
 
-@AllArgsConstructor@Data
+@Data @AllArgsConstructor
 public class ResponseDto {
-    public HttpStatus statusCode;
-    public String statusMsg;
+
+
+    private String statusCode;
+
+
+    private String statusMsg;
+
 }
